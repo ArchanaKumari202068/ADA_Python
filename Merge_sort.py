@@ -1,4 +1,6 @@
-def merge(low,high):
+#Implement Merge Sort Algorithm with all the necessary functions.
+
+def merge(low,high): # function take Two parameter
     # to store result
     result = [] 
     i ,j=0,0
