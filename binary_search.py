@@ -2,8 +2,6 @@
 
 # Repeat until low and high meet each other
 def binarySearch(array, x, low, high):
-
-    
     if high >= low:
 
         mid = low + (high - low)//2
@@ -22,7 +20,6 @@ def binarySearch(array, x, low, high):
 
     else:
         return -1
-
 
 array = [9, 11,2, 5, 6, 21, 8, 52,1]
 x = 8
