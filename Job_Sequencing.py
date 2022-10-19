@@ -37,7 +37,7 @@ for job in jobs:
     
     for i in range(job.deadline-1,-1,-1):
         if job_sequence[i] is None:
-            job_sequence[i] = job.job_name,job.profit
+            job_sequence[i] = job.job_name,job.profit  
             count+=1
             break
             

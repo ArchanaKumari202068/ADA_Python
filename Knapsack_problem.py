@@ -1,3 +1,4 @@
+#Lab-4 : Knapsack_problem
 def knapsack(W_bag,s_a):
     a=sorted(s_a,key=lambda i:i[1],reverse=True)
     result=0
