@@ -8,7 +8,6 @@ def knapsack(W_bag,s_a):
             result=result+item[1]
     return (result)    
 
-
 W_bag=int(input("Enter the bag size:"))
 wt_item=input("Enter the weight of the items:").split()
 wt_item=[int(item) for item in wt_item]
